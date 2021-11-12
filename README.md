@@ -60,6 +60,6 @@ El tamaño del índice es una causa común de fallas de Elasticsearch. Dado que 
 
 ## Creación y borrado de los respaldos
 
-![](./assets/Lifecylcle.jpeg)
+![](./assets/DeletePhase.jpeg)
 
 ## Instalación
