@@ -1,5 +1,16 @@
 # Proyecto final TCON 2021 - 2
 
+## Autores
+
+- Juan Sebastian Garcia Hincapie
+- Johann Cepeda Alza
+
+## Instalación
+
+```
+git clone https://github.com/tcon2021/proyecto.git
+```
+
 ## Descripción del proyecto
 
 El proyecto final para esta materia es una arquitectura HOT-WARM-COLD implementando un sistema que lee constantemente una fuente de datos que pasan a través de las fases Hot, warm, cold. Usa politicas para el ciclo de vida de los datos que permiten definir la duracion y otros aspectos importantes a tener en cuenta. Implementa un sistemas de indexacion de datos a traves de todo un proceso desde su lectura hasta su publicación.
@@ -44,22 +55,25 @@ El tamaño del índice es una causa común de fallas de Elasticsearch. Dado que 
 
 ### ETAPA HOT
 
+Cuando hablamos de acceso a datos “Hot Storage”, nos estamos refiriendo a datos casi basados en memoria computacional, de unas necesidades inmediatas de acceso y, en muchas ocasiones, pre-configurados con anterioridad, guardando el cálculo, agregación, transformación que facilitan tanto el acceso como el servicio al mismo.
+
 ![](./assets/Hot.jpeg)
 
 ### ETAPA WARM
+
+Por lo que refiere a un acceso a los datos más intermédio, o “Warm Storage”, estaríamos hablando de sistemas de Datawarehousing. Estamos hablando de tener datos ya anteriormente trabajados y que tienen una función concreta, sea para reporting, sea para cumplir con un requerimiento de negocio para un acceso operacional desde una aplicación.
 
 ![](./assets/Warm.jpeg)
 
 ### ETAPA COLD
 
+El uso de un repositorio basado en “Cold Storage” podría ser cuando usamos una arquitectura de datos basada en Data-Lake, es decir, nuestro acceso a los datos no es operacional ni tampoco constante. Más bien para sistemas de reporting, agregaciones o transformaciones de datos de procesos basados en colas, entonces, tenemos un acceso continuado al sistema.
 ![](./assets/Cold.jpeg)
 
 ## Indices
-
+Presentamos los indices
 ![](./assets/Indices.jpeg)
 
 ## Creación y borrado de los respaldos
 
 ![](./assets/DeletePhase.jpeg)
-
-## Instalación
