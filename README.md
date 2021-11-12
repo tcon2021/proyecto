@@ -1,5 +1,10 @@
 # Proyecto final TCON 2021 - 2
 
+## Descripción del proyecto
+
+El proyecto final para esta materia es una arquitectura HOT-WARM-COLD implementando un sistema que lee constantemente una fuente de datos que pasan a través de las fases Hot, warm, cold. Usa politicas para el ciclo de vida de los datos que permiten definir la duracion y otros aspectos importantes a tener en cuenta. Implementa un sistemas de indexacion de datos a traves de todo un proceso desde su lectura hasta su publicación.
+
+![](./assets/architecture.PNG)
 ## Terminología y definiciones
 
 ![](./assets/definitions.PNG)
@@ -25,13 +30,8 @@ En pocas palabras, los fragmentos son un único índice de Lucene. Son los compo
 
 El tamaño del índice es una causa común de fallas de Elasticsearch. Dado que no hay límite para la cantidad de documentos que puede almacenar en cada índice, un índice puede ocupar una cantidad de espacio en disco que exceda los límites del servidor de alojamiento. Tan pronto como un índice se acerque a este límite, la indexación comenzará a fallar.
 
-Ejemplo:
 ![](./assets/fragment.PNG)
-## Descripción del proyecto
 
-El proyecto final para esta materia es una arquitectura HOT-WARM-COLD implementando un sistema que lee constantemente una fuente de datos que pasan a través de las fases Hot, warm, cold. Usa politicas para el ciclo de vida de los datos que permiten definir la duracion y otros aspectos importantes a tener en cuenta. Implementa un sistemas de indexacion de datos a traves de todo un proceso desde su lectura hasta su publicación.
-
-![](./assets/architecture.PNG)
 ## Indices
 
 ## Creación y borrado de los respaldos
