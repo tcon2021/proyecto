@@ -68,10 +68,13 @@ Por lo que refiere a un acceso a los datos más intermédio, o “Warm Storage�
 ### ETAPA COLD
 
 El uso de un repositorio basado en “Cold Storage” podría ser cuando usamos una arquitectura de datos basada en Data-Lake, es decir, nuestro acceso a los datos no es operacional ni tampoco constante. Más bien para sistemas de reporting, agregaciones o transformaciones de datos de procesos basados en colas, entonces, tenemos un acceso continuado al sistema.
+
 ![](./assets/Cold.jpeg)
 
 ## Indices
+
 Presentamos los indices
+
 ![](./assets/Indices.jpeg)
 
 ## Creación y borrado de los respaldos
